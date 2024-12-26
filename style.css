@@ -103,10 +103,14 @@ p {
     font-size: 25px;
 }
 
-.about_me ul li a {
+.e-mail {
     text-decoration: none;
     color: orange;
 
+}
+
+.e-mail span {
+    color: white;
 }
 
 .me {
