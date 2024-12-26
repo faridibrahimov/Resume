@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 12vh;
+    flex-grow: 0;
+    flex-shrink: 0;
+    /* background-color: rgba(58, 56, 56, 0.901); */
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 3%;
+}
+
+.headera {
+    text-decoration: none;
+    color: white;
+    margin-right: 70px;
+    font-size: 20px;
+}
+
+.headera:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+.welcome {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(58, 56, 56, 0.901);
+    padding: 6%;
+    padding-right: 13%;
+    height: 470px;
+}
+
+h2 {
+    padding-top: 10%;
+    padding-left: 5%;
+    font-size: 35px;
+    color: white;
+}
+
+.welcome h1 {
+    padding-top: 6%;
+    padding-left: 5%;
+    font-size: 70px;
+    color: white;
+}
+
+.about_me {
+    background-color: rgba(21, 21, 21, 0.901);
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 6%;
+}
+
+.about_me h1 {
+    font-size: 55px;
+    color: white;
+    text-align: center;
+    /* padding-left: 5%; */
+}
+
+.about_me h2 {
+    padding-top: 5%;
+}
+
+.name {
+    color: orange;
+}
+
+p {
+    padding-top: 3%;
+    color: white;
+    font-size: 20px;
+}
+
+.about_me ul {
+    /* display: flex; */
+    align-items: center;
+    list-style: none;
+    color: white;
+}
+
+.about_me ul li {
+    padding-top: 50px;
+    padding-left: 70px;
+    font-size: 25px;
+}
+
+.about_me ul li a {
+    text-decoration: none;
+    color: orange;
+
+}
+
+.me {
+    display: flex;
+}
+
+.skills {
+    display: block;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: rgba(58, 56, 56, 0.901);
+}
+
+.skills h1 {
+    text-align: center;
+    padding-top: 2%;
+    font-size: 55px;
+    color: white;
+}
+
+.skill-language {
+    display: flex;
+}
+
+.skill, .languages {
+    max-width: 400px;
+    margin: 20px;
+    padding: 2%;
+    width: 48%;
+    /* padding-left: 12%; */
+}
+
+.languages {
+    padding-left: 35%;
+}
+
+.skill-item, .language {
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between; 
+    margin-bottom: 45px; 
+    color: white;
+    font-size: 20px;
+}
+  
+.progress {
+    flex-grow: 1;
+    height: 10px; 
+    background-color: #444; 
+    border-radius: 5px;
+    margin: 0 10px; 
+    overflow: hidden;
+}
+  
+.progress-bar {
+    height: 100%;
+    background-color: #f7b52a;
+    border-radius: 5px;
+}
+
+.percentage {
+    padding-left: 90%;
+}
+
+.projects {
+    background-color: rgba(21, 21, 21, 0.901);
+}
+
+.projects h1 {
+    text-align: center;
+    padding-top: 2%;
+    /* padding-right: 3%; */
+    font-size: 55px;
+    color: white;
+}
+
+.pics {
+    display: flex;
+    padding: 2%;
+    gap: 24%;
+}
+
+.computer_world {
+    border-radius: 5px;
+}
+
+.cats_facts {
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(58, 56, 56, 0.901);
+}
+
+footer p {
+    color:  white;
+}
+
+.imgicon {
+    width: 20%;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+
+@media (max-width: 1443px) and (orientation: portrait){
+
+    .menu ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        padding-left: 3%;
+    }
+    
+    .headera {
+        text-decoration: none;
+        color: white;
+        margin-right: 40px;
+        font-size: 12px;
+    }
+
+    .welcome h2 {
+        font-size: 15px;
+        padding-top: 159px;
+
+    }
+
+    .welcome h1 {
+        font-size: 24px;
+        padding-top: 29px;
+    }
+
+    .about_me h1 {
+        font-size: 24px;
+    }
+
+    .about_me h2 {
+        font-size: 14px;
+    }
+
+    .about_me ul li{
+        font-size: 14px;
+    }
+
+    .about_me p {
+        font-size: 12px;
+    }
+
+    .skills h1 {
+        font-size: 24px;
+    }
+
+    .skill-item, .language {
+        font-size: 14px;
+    }
+
+    .projects h1{
+        font-size: 24px;
+    }
+
+    footer p {
+        font-size: 11px;
+    }
+
+    .computer_world {
+        width: 300px;
+        height: 150px;
+    }
+
+    .cats_facts {
+        width: 300px;
+        height: 150px;
+        padding-top: 5%;
+        padding-bottom: 1%;
+    }
+
+    .pics {
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+        align-items: center;
+    }
+
+    .imgicon {
+        width: 10%;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .me {
+        display: block;
+    }
+
+    .me h2, p {
+        text-align: center;
+    }
+
+    .skill-language {
+        display: block;
+    }
+
+    .languages {
+        padding-left: 0%;
+    }
+
+    .skills {
+        padding: 0.5%;
+    }
+}
+
+@media (max-width: 3000px) and (orientation: landscape){
+
+    .pics {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2%;
+        gap: 23%;
+    }
+
+    .computer_world {
+        width: 450px;
+        height: 250px;
+    }
+
+    .cats_facts {
+        width: 450px;
+        height: 250px;
+        padding-top: 5%;
+        padding-bottom: 1%;
+    }
+}
+
+/* @media (max-width: 1221px) and (orientation: portrait){
+
+    .menu ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        padding-left: 3%;
+    }
+    
+    .headera {
+        text-decoration: none;
+        color: white;
+        margin-right: 40px;
+        font-size: 32px;
+    }
+
+    .welcome h2 {
+        font-size: 35px;
+    }
+
+    .welcome h1 {
+        font-size: 45px;
+    }
+
+    .about_me h1 {
+        font-size: 45px;
+    }
+
+    .about_me h2 {
+        font-size: 32px;
+    }
+
+    .about_me ul li{
+        font-size: 34px;
+    }
+
+    .about_me p {
+        font-size: 28px;
+    }
+
+    .skills h1 {
+        font-size: 45px;
+    }
+
+    .skill-item, .language {
+        font-size: 34px;
+    }
+
+    .projects h1{
+        font-size: 24px;
+    }
+
+    footer p {
+        font-size: 23px;
+    }
+
+    .computer_world {
+        width: 600px;
+        height: 250px;
+    }
+
+    .cats_facts {
+        width: 600px;
+        height: 250px;
+        padding-top: 5%;
+        padding-bottom: 1%;
+    }
+
+    .pics {
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+        align-items: center;
+    }
+
+    .imgicon {
+        width: 20%;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+} */
